@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formularz</title>
+<script src='TS_C5701.js'></script>
+
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Formularz;
+		--web-view-id: Formularz;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Formularz;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Formularz {
+		position: absolute;
+		background: #E5E5E5;
+		width: 360px;
+		height: 907px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Formularz;
+		--web-view-id: Formularz;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes  {
+	
+	
+	}
+	#Repeat_Grid_2 {
+		position: absolute;
+		width: 336px;
+		height: 595px;
+		left: 10px;
+		top: 150px;
+		overflow: hidden;
+	}
+	#Repeat_Grid_2_0 {
+		position: absolute;
+		width: 336px;
+		height: 95px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Formularz_eq {
+		position: absolute;
+		width: 336px;
+		height: 95px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Header {
+		position: absolute;
+		width: 336px;
+		height: 61px;
+		left: 0px;
+		top: 34px;
+		overflow: visible;
+	}
+	.Rectangle_7 {
+		position: absolute;
+		overflow: visible;
+		width: 336px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#imi_ {
+		position: absolute;
+		left: 21px;
+		top: 0px;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(77,76,76,1);
+	}
+	#Repeat_Grid_2_1 {
+		position: absolute;
+		width: 336px;
+		height: 95px;
+		left: 0px;
+		top: 123px;
+		overflow: visible;
+	}
+	#Formularz_ev {
+		position: absolute;
+		width: 336px;
+		height: 95px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Header_ew {
+		position: absolute;
+		width: 336px;
+		height: 61px;
+		left: 0px;
+		top: 34px;
+		overflow: visible;
+	}
+	.Rectangle_7_ex {
+		position: absolute;
+		overflow: visible;
+		width: 336px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#nazwisko {
+		position: absolute;
+		left: 21px;
+		top: 0px;
+		overflow: visible;
+		width: 121px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(77,76,76,1);
+	}
+	#Repeat_Grid_2_2 {
+		position: absolute;
+		width: 336px;
+		height: 95px;
+		left: 0px;
+		top: 246px;
+		overflow: visible;
+	}
+	#Formularz_e {
+		position: absolute;
+		width: 336px;
+		height: 95px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Header_e {
+		position: absolute;
+		width: 336px;
+		height: 61px;
+		left: 0px;
+		top: 34px;
+		overflow: visible;
+	}
+	.Rectangle_7_e {
+		position: absolute;
+		overflow: visible;
+		width: 336px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#numer_telefonu {
+		position: absolute;
+		left: 21px;
+		top: 0px;
+		overflow: visible;
+		width: 208px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(77,76,76,1);
+	}
+	#Repeat_Grid_2_3 {
+		position: absolute;
+		width: 336px;
+		height: 95px;
+		left: 0px;
+		top: 369px;
+		overflow: visible;
+	}
+	#Formularz_fa {
+		position: absolute;
+		width: 336px;
+		height: 95px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Header_fa {
+		position: absolute;
+		width: 336px;
+		height: 61px;
+		left: 0px;
+		top: 34px;
+		overflow: visible;
+	}
+	.Rectangle_7_fa {
+		position: absolute;
+		overflow: visible;
+		width: 336px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#e_mail {
+		position: absolute;
+		left: 21px;
+		top: 0px;
+		overflow: visible;
+		width: 85px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(77,76,76,1);
+	}
+	#Repeat_Grid_2_4 {
+		position: absolute;
+		width: 336px;
+		height: 95px;
+		left: 0px;
+		top: 492px;
+		overflow: visible;
+	}
+	#Formularz_fb {
+		position: absolute;
+		width: 336px;
+		height: 95px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Header_fb {
+		position: absolute;
+		width: 336px;
+		height: 61px;
+		left: 0px;
+		top: 34px;
+		overflow: visible;
+	}
+	.Rectangle_7_fc {
+		position: absolute;
+		overflow: visible;
+		width: 336px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#adres {
+		position: absolute;
+		left: 21px;
+		top: 0px;
+		overflow: visible;
+		width: 77px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(77,76,76,1);
+	}
+	#Formularz_fe {
+		position: absolute;
+		width: 176px;
+		height: 61px;
+		left: 180px;
+		top: 801px;
+		overflow: visible;
+		--web-animation: fadein 0.3s linear;
+		--web-action-type: page;
+		--web-action-target: Sprawd_.html;
+		cursor: pointer;
+	}
+	#Header_ff {
+		position: absolute;
+		width: 176px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_7_fg {
+		position: absolute;
+		overflow: visible;
+		width: 176px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#dalej {
+		position: absolute;
+		left: 47px;
+		top: 11px;
+		overflow: visible;
+		width: 83px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(255,213,32,1);
+	}
+	#Menu {
+		position: absolute;
+		width: 43px;
+		height: 41px;
+		left: 303px;
+		top: 28px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Menu.html;
+		cursor: pointer;
+	}
+	#Group_19 {
+		position: absolute;
+		width: 43px;
+		height: 41px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_14 {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 41px;
+		left: 0px;
+		top: 0px;
+	}
+	.path {
+		overflow: visible;
+		position: absolute;
+		width: 21.507px;
+		height: 18.312px;
+		left: 11.078px;
+		top: 11.32px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Component_10___9 {
+		position: absolute;
+		width: 198px;
+		height: 48px;
+		left: 46.5px;
+		top: 24.5px;
+		overflow: visible;
+	}
+	#BoSystems {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 199px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 39px;
+		color: rgba(77,76,76,1);
+	}
+</style>
+</head>
+<body>
+<form action="" id="form">
+<div id="Formularz">
+	<div id="Repeat_Grid_2">
+		<div id="Repeat_Grid_2_0">
+			<div id="Formularz_eq" class="Formularz">
+				<div id="Header">
+				<input type="text" id="form_name" style="border:solid; border-color:gray;border-radius: 25px; padding-top:5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; font-size: 15px; width=120px;">
+				</div>
+				<div id="imi_">
+					<span>imię</span>
+				</div>
+			</div>
+		</div>
+		<div id="Repeat_Grid_2_1">
+			<div id="Formularz_ev" class="Formularz">
+				<div id="Header_ew">
+				<input type="text" id="form_surname" style="border:solid; border-color:gray; border-radius:25px; padding-top:5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; font-size: 15px; width=120px;">
+				</div>
+				<div id="nazwisko">
+					<span>nazwisko</span>
+				</div>
+			</div>
+		</div>
+		<div id="Repeat_Grid_2_2">
+			<div id="Formularz_e" class="Formularz">
+				<div id="Header_e">
+				<input type="tel" id="form_phone_number" style="border:solid; border-color:gray; border-radius:25px; padding-top:5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; font-size: 15px; width=120px;">				</div>
+				<div id="numer_telefonu">
+					<span>numer telefonu</span>
+				</div>
+			</div>
+		</div>
+		<div id="Repeat_Grid_2_3">
+			<div id="Formularz_fa" class="Formularz">
+				<div id="Header_fa">
+				<input type="mail" id="form_mail" style="border:solid; border-color:gray; border-radius:25px; padding-top:5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; font-size: 15px; width=120px;">
+				</div>
+				<div id="e_mail">
+					<span>e-mail</span>
+				</div>
+			</div>
+		</div>
+		<div id="Repeat_Grid_2_4">
+			<div id="Formularz_fb" class="Formularz">
+				<div id="Header_fb">
+				<input type="text" id="form_address" style="border:solid; border-color:gray; border-radius:25px; padding-top:5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; font-size: 15px; width=120px;">
+				</div>
+				<div id="adres">
+					<span>adres</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event); application.onSaveDaneClick();" id="Formularz_fe" class="Formularz">
+		<div id="Header_ff">
+			<svg class="Rectangle_7_fg">
+				<rect fill="rgba(255,255,255,0)" stroke="rgba(112,112,112,1)" stroke-width="7px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_7_fg" rx="24" ry="24" x="0" y="0" width="176" height="61">
+				</rect>
+			</svg>
+		</div>
+		<div id="dalej">
+			<span>dalej</span>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Menu" class="Menu">
+		<div id="Group_19">
+			<svg class="Rectangle_14">
+				<rect fill="transparent" stroke="rgba(72,72,72,1)" stroke-width="3.799999952316284px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_14" rx="12" ry="12" x="0" y="0" width="43" height="41">
+				</rect>
+			</svg>
+		</div>
+		<svg class="path" viewBox="557.4 875 21.507 18.312">
+			<path fill="rgba(255,213,32,1)" id="path" d="M 557.39990234375 875.0004272460938 L 578.9065551757813 875.0004272460938 L 578.9065551757813 878.0525512695313 L 557.39990234375 878.0525512695313 L 557.39990234375 875.0004272460938 Z M 557.39990234375 885.6826782226563 L 557.39990234375 882.6305541992188 L 578.9065551757813 882.6305541992188 L 578.9065551757813 885.6826782226563 L 557.39990234375 885.6826782226563 Z M 557.39990234375 893.3126831054688 L 557.39990234375 890.2608032226563 L 578.9065551757813 890.2608032226563 L 578.9065551757813 893.3126831054688 L 557.39990234375 893.3126831054688 Z">
+			</path>
+		</svg>
+	</div>
+	<div id="Component_10___9" class="Component_10___9">
+		<div id="BoSystems">
+			<span>BoSystems</span>
+		</div>
+	</div>
+</div>
+</form>
+<script>
+	application.restoreDane();
+</script>
+</body>
+</html>

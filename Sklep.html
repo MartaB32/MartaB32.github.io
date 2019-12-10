@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sklep</title>
+<script src='TS_C5701.js'></script>
+
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Sklep;
+		--web-view-id: Sklep;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Sklep;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Sklep {
+		position: absolute;
+		background: #E5E5E5;
+		width: 360px;
+		height: 1597px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Sklep;
+		--web-view-id: Sklep;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes  {
+	
+	
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Header {
+		position: absolute;
+		width: 127px;
+		height: 37px;
+		left: 8px;
+		top: 123px;
+		overflow: visible;
+	}
+	.Rectangle_7 {
+		position: absolute;
+		overflow: visible;
+		width: 127px;
+		height: 37px;
+		left: 0px;
+		top: 0px;
+	}
+	#g_o_niki {
+		position: absolute;
+		left: 15px;
+		top: 8px;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(64,64,64,1);
+	}
+	#Produkt {
+		position: absolute;
+		width: 150px;
+		height: 188px;
+		left: 190px;
+		top: 167px;
+		overflow: visible;
+		--web-animation: fadein 0.3s linear;
+		--web-action-type: page;
+		--web-action-target: KE_25_SC.html;
+		cursor: pointer;
+	}
+	#Produkt_bx {
+		position: absolute;
+		width: 150px;
+		height: 188px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_8 {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 23px;
+		left: 0px;
+		top: 135px;
+	}
+	.Rectangle_9 {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 30px;
+		left: 0px;
+		top: 158px;
+	}
+	#VISATON_KE_25_SC {
+		position: absolute;
+		left: 8px;
+		top: 138px;
+		overflow: visible;
+		width: 121px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	#ke25sc {
+		position: absolute;
+		width: 117.647px;
+		height: 130px;
+		left: 32px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Path_9 {
+		overflow: visible;
+		position: absolute;
+		width: 78px;
+		height: 30px;
+		left: 72px;
+		top: 158px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID519_00 {
+		position: absolute;
+		left: 90px;
+		top: 165px;
+		overflow: visible;
+		width: 43px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	#Produkt_b {
+		position: absolute;
+		width: 150px;
+		height: 188px;
+		left: 20px;
+		top: 167px;
+		overflow: visible;
+	}
+	#Produkt_ca {
+		position: absolute;
+		width: 150px;
+		height: 188px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: AL_200.html;
+		cursor: pointer;
+	}
+	#asd {
+		position: absolute;
+		width: 150px;
+		height: 135px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_8_b {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 23px;
+		left: 0px;
+		top: 135px;
+	}
+	.Rectangle_9_b {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 30px;
+		left: 0px;
+		top: 158px;
+	}
+	#VISATON_AL_200 {
+		position: absolute;
+		left: 7px;
+		top: 138px;
+		overflow: visible;
+		width: 109px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	.Path_9_ca {
+		overflow: visible;
+		position: absolute;
+		width: 78px;
+		height: 30px;
+		left: 72px;
+		top: 158px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID599_00 {
+		position: absolute;
+		left: 90px;
+		top: 165px;
+		overflow: visible;
+		width: 43px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	#Produkt_cc {
+		position: absolute;
+		width: 150px;
+		height: 188px;
+		left: 20px;
+		top: 884px;
+		overflow: visible;
+		--web-animation: fadein 0.3s linear;
+		--web-action-type: page;
+		--web-action-target: RCX_130.html;
+		cursor: pointer;
+	}
+	.Rectangle_8_cd {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 23px;
+		left: 0px;
+		top: 135px;
+	}
+	.Rectangle_9_ce {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 30px;
+		left: 0px;
+		top: 158px;
+	}
+	#FOCAL_AUDITOR {
+		position: absolute;
+		left: 7px;
+		top: 138px;
+		overflow: visible;
+		width: 109px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	#ID2100237 {
+		position: absolute;
+		width: 135px;
+		height: 135px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Path_9_ch {
+		overflow: visible;
+		position: absolute;
+		width: 78px;
+		height: 30px;
+		left: 92px;
+		top: 1042px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID239_00 {
+		position: absolute;
+		left: 110px;
+		top: 1049px;
+		overflow: visible;
+		width: 43px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	#Header_cj {
+		position: absolute;
+		width: 127px;
+		height: 37px;
+		left: 20px;
+		top: 1117px;
+		overflow: visible;
+	}
+	.Rectangle_7_ck {
+		position: absolute;
+		overflow: visible;
+		width: 127px;
+		height: 37px;
+		left: 0px;
+		top: 0px;
+	}
+	#inne {
+		position: absolute;
+		left: 15px;
+		top: 8px;
+		overflow: visible;
+		width: 38px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(64,64,64,1);
+	}
+	#Menu {
+		position: absolute;
+		width: 43px;
+		height: 41px;
+		left: 303px;
+		top: 28px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Menu.html;
+		cursor: pointer;
+	}
+	#Group_19 {
+		position: absolute;
+		width: 43px;
+		height: 41px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_14 {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 41px;
+		left: 0px;
+		top: 0px;
+	}
+	.path {
+		overflow: visible;
+		position: absolute;
+		width: 21.507px;
+		height: 18.312px;
+		left: 11.078px;
+		top: 11.32px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Component_10___1 {
+		position: absolute;
+		width: 198px;
+		height: 48px;
+		left: 46.5px;
+		top: 24.5px;
+		overflow: visible;
+	}
+	#BoSystems {
+		position: absolute;
+		left: 5px;
+		top: 0px;
+		overflow: visible;
+		width: 194px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 38px;
+		color: rgba(77,76,76,1);
+	}
+	#Group_51 {
+		position: absolute;
+		width: 150px;
+		height: 188px;
+		left: 20px;
+		top: 406px;
+		overflow: visible;
+		--web-animation: fadein 0.3s linear;
+		--web-action-type: page;
+		--web-action-target: PAW_25.html;
+		cursor: pointer;
+	}
+	#Produkt_ct {
+		position: absolute;
+		width: 149.956px;
+		height: 53px;
+		left: 0px;
+		top: 135px;
+		overflow: visible;
+	}
+	#Produkt_cu {
+		position: absolute;
+		width: 149.956px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_8_cv {
+		position: absolute;
+		overflow: visible;
+		width: 149.956px;
+		height: 23px;
+		left: 0px;
+		top: 0px;
+	}
+	.Rectangle_9_cw {
+		position: absolute;
+		overflow: visible;
+		width: 149.956px;
+		height: 30px;
+		left: 0px;
+		top: 23px;
+	}
+	#VISATON_PAW_25 {
+		position: absolute;
+		left: 4px;
+		top: 3px;
+		overflow: visible;
+		width: 115px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	.Path_9_cy {
+		overflow: visible;
+		position: absolute;
+		width: 78px;
+		height: 30px;
+		left: 71.956px;
+		top: 23px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID339_00 {
+		position: absolute;
+		left: 89.956px;
+		top: 30px;
+		overflow: visible;
+		width: 43px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	#paw25_1 {
+		position: absolute;
+		width: 115.044px;
+		height: 130px;
+		left: 34.956px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_52 {
+		position: absolute;
+		width: 150px;
+		height: 188px;
+		left: 190px;
+		top: 406px;
+		overflow: visible;
+		--web-animation: fadein 0.3s linear;
+		--web-action-type: page;
+		--web-action-target: GF_200.html;
+		cursor: pointer;
+	}
+	#Produkt_c {
+		position: absolute;
+		width: 150px;
+		height: 53px;
+		left: 0px;
+		top: 135px;
+		overflow: visible;
+	}
+	#Produkt_da {
+		position: absolute;
+		width: 150px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_8_c {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 23px;
+		left: 0px;
+		top: 0px;
+	}
+	.Rectangle_9_c {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 30px;
+		left: 0px;
+		top: 23px;
+	}
+	#VISATON_GF_200 {
+		position: absolute;
+		left: 13px;
+		top: 3px;
+		overflow: visible;
+		width: 111px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	.Path_9_c {
+		overflow: visible;
+		position: absolute;
+		width: 78px;
+		height: 30px;
+		left: 72px;
+		top: 23px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID459_90 {
+		position: absolute;
+		left: 90px;
+		top: 30px;
+		overflow: visible;
+		width: 43px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	#gf200_2x4_1_0 {
+		position: absolute;
+		width: 150px;
+		height: 114.072px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_54 {
+		position: absolute;
+		width: 150px;
+		height: 188px;
+		left: 20px;
+		top: 645px;
+		overflow: visible;
+		--web-animation: fadein 0.3s linear;
+		--web-action-type: page;
+		--web-action-target: TS_C5701.html;
+		cursor: pointer;
+	}
+	#Produkt_db {
+		position: absolute;
+		width: 150px;
+		height: 53px;
+		left: 0px;
+		top: 135px;
+		overflow: visible;
+	}
+	#Produkt_dc {
+		position: absolute;
+		width: 150px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_8_dd {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 23px;
+		left: 0px;
+		top: 0px;
+	}
+	.Rectangle_9_de {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 30px;
+		left: 0px;
+		top: 23px;
+	}
+	#BLOW_TS_C5701 {
+		position: absolute;
+		left: 9px;
+		top: 3px;
+		overflow: visible;
+		width: 105px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	.Path_9_dg {
+		overflow: visible;
+		position: absolute;
+		width: 78px;
+		height: 30px;
+		left: 72px;
+		top: 23px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID74_90 {
+		position: absolute;
+		left: 94px;
+		top: 30px;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	#ID30_230 {
+		position: absolute;
+		width: 150px;
+		height: 112.5px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_58 {
+		position: absolute;
+		width: 151px;
+		height: 188px;
+		left: 190px;
+		top: 645px;
+		overflow: visible;
+		--web-animation: fadein 0.3s linear;
+		--web-action-type: page;
+		--web-action-target: AMT_MINI_8.html;
+		cursor: pointer;
+	}
+	#Produkt_dk {
+		position: absolute;
+		width: 151px;
+		height: 53px;
+		left: 0px;
+		top: 135px;
+		overflow: visible;
+	}
+	#Produkt_dl {
+		position: absolute;
+		width: 151px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_8_dm {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 23px;
+		left: 1px;
+		top: 0px;
+	}
+	.Rectangle_9_dn {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 30px;
+		left: 1px;
+		top: 23px;
+	}
+	#DAYTON_AMT_MINI_8 {
+		position: absolute;
+		left: 0px;
+		top: 8px;
+		overflow: visible;
+		width: 139px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	.Path_9_dp {
+		overflow: visible;
+		position: absolute;
+		width: 78px;
+		height: 30px;
+		left: 73px;
+		top: 23px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID159_00 {
+		position: absolute;
+		left: 91px;
+		top: 30px;
+		overflow: visible;
+		width: 43px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	#ID275_095_HR_0 {
+		position: absolute;
+		width: 135px;
+		height: 135px;
+		left: 1px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_59 {
+		position: absolute;
+		width: 150px;
+		height: 173px;
+		left: 20px;
+		top: 1181px;
+		overflow: visible;
+	}
+	#Group_63 {
+		position: absolute;
+		width: 150px;
+		height: 173px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		--web-animation: fadein 0.3s linear;
+		--web-action-type: page;
+		--web-action-target: Dietz_5m.html;
+		cursor: pointer;
+	}
+	#Produkt_du {
+		position: absolute;
+		width: 150px;
+		height: 53px;
+		left: 0px;
+		top: 120px;
+		overflow: visible;
+	}
+	#Produkt_dv {
+		position: absolute;
+		width: 150px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_8_dw {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 23px;
+		left: 0px;
+		top: 0px;
+	}
+	.Rectangle_9_dx {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 30px;
+		left: 0px;
+		top: 23px;
+	}
+	#DIETZ_5m {
+		position: absolute;
+		left: 7px;
+		top: 3px;
+		overflow: visible;
+		width: 60px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	.Path_9_dz {
+		overflow: visible;
+		position: absolute;
+		width: 78px;
+		height: 30px;
+		left: 72px;
+		top: 23px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID34_90 {
+		position: absolute;
+		left: 94px;
+		top: 30px;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	#b163974c4de3a78437827a875cf7 {
+		position: absolute;
+		width: 150px;
+		height: 120px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_60 {
+		position: absolute;
+		width: 151px;
+		height: 173px;
+		left: 201px;
+		top: 1181px;
+		overflow: visible;
+	}
+	#Group_64 {
+		position: absolute;
+		width: 151px;
+		height: 173px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		--web-animation: fadein 0.3s linear;
+		--web-action-type: page;
+		--web-action-target: Zwrotnica.html;
+		cursor: pointer;
+	}
+	#Produkt_d {
+		position: absolute;
+		width: 151px;
+		height: 53px;
+		left: 0px;
+		top: 120px;
+		overflow: visible;
+	}
+	#Produkt_ea {
+		position: absolute;
+		width: 151px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_8_d {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 23px;
+		left: 1px;
+		top: 0px;
+	}
+	.Rectangle_9_d {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 30px;
+		left: 1px;
+		top: 23px;
+	}
+	#Zwrotnica_tr_jdro_na {
+		position: absolute;
+		left: 0px;
+		top: 8px;
+		overflow: visible;
+		width: 139px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	.Path_9_d {
+		overflow: visible;
+		position: absolute;
+		width: 78px;
+		height: 30px;
+		left: 73px;
+		top: 23px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID51_90 {
+		position: absolute;
+		left: 95px;
+		top: 30px;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	#zwrotnica_trojdrozna_12_dB_okt {
+		position: absolute;
+		width: 150px;
+		height: 112.5px;
+		left: 1px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_62 {
+		position: absolute;
+		width: 150px;
+		height: 203px;
+		left: 20px;
+		top: 1381px;
+		overflow: visible;
+		--web-animation: fadein 0.3s linear;
+		--web-action-type: page;
+		--web-action-target: Wzmacniacz.html;
+		cursor: pointer;
+	}
+	#Group_61 {
+		position: absolute;
+		width: 150px;
+		height: 53px;
+		left: 0px;
+		top: 150px;
+		overflow: visible;
+	}
+	#Produkt_ee {
+		position: absolute;
+		width: 150px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Produkt_ef {
+		position: absolute;
+		width: 150px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_8_eg {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 23px;
+		left: 0px;
+		top: 0px;
+	}
+	.Rectangle_9_eh {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 30px;
+		left: 0px;
+		top: 23px;
+	}
+	#SONY_XM_N502 {
+		position: absolute;
+		left: 7px;
+		top: 3px;
+		overflow: visible;
+		width: 105px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	.Path_9_ej {
+		overflow: visible;
+		position: absolute;
+		width: 78px;
+		height: 30px;
+		left: 72px;
+		top: 23px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID285_00 {
+		position: absolute;
+		left: 90px;
+		top: 30px;
+		overflow: visible;
+		width: 43px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(112,112,112,1);
+	}
+	#i_sony_xmn502 {
+		position: absolute;
+		width: 150px;
+		height: 150px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+</style>
+</head>
+<body>
+<div id="Sklep">
+	<div id="Header">
+		<svg class="Rectangle_7">
+			<rect fill="rgba(255,255,255,0)" stroke="rgba(72,72,72,1)" stroke-width="4px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_7" rx="18.5" ry="18.5" x="0" y="0" width="127" height="37">
+			</rect>
+		</svg>
+		<div id="g_o_niki">
+			<span>głośniki</span>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Produkt" class="Produkt">
+		<div id="Produkt_bx">
+			<svg class="Rectangle_8">
+				<rect fill="rgba(255,255,255,1)" id="Rectangle_8" rx="0" ry="0" x="0" y="0" width="150" height="23">
+				</rect>
+			</svg>
+			<svg class="Rectangle_9">
+				<rect fill="rgba(255,255,255,1)" id="Rectangle_9" rx="0" ry="0" x="0" y="0" width="150" height="30">
+				</rect>
+			</svg>
+			<div id="VISATON_KE_25_SC">
+				<span>VISATON KE 25 SC</span>
+			</div>
+			<img id="ke25sc" src="ke25sc.png" srcset="ke25sc.png 1x, ke25sc@2x.png 2x">
+		</div>
+		<svg class="Path_9" viewBox="0 0 78 30">
+			<path fill="rgba(255,255,255,1)" id="Path_9" d="M 0 0 L 78 0 L 78 30 L 0 30 L 0 0 Z">
+			</path>
+		</svg>
+		<div id="ID519_00">
+			<span>519,00</span>
+		</div>
+	</div>
+	<div id="Produkt_b" class="Produkt">
+		<div onclick="application.goToTargetView(event)" id="Produkt_ca">
+			<img id="asd" src="asd.png" srcset="asd.png 1x, asd@2x.png 2x">
+			<svg class="Rectangle_8_b">
+				<rect fill="rgba(255,255,255,1)" id="Rectangle_8_b" rx="0" ry="0" x="0" y="0" width="150" height="23">
+				</rect>
+			</svg>
+			<svg class="Rectangle_9_b">
+				<rect fill="rgba(255,255,255,1)" id="Rectangle_9_b" rx="0" ry="0" x="0" y="0" width="150" height="30">
+				</rect>
+			</svg>
+			<div id="VISATON_AL_200">
+				<span>VISATON AL 200</span>
+			</div>
+		</div>
+		<svg class="Path_9_ca" viewBox="0 0 78 30">
+			<path fill="rgba(255,255,255,1)" id="Path_9_ca" d="M 0 0 L 78 0 L 78 30 L 0 30 L 0 0 Z">
+			</path>
+		</svg>
+		<div id="ID599_00">
+			<span>599,00</span>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Produkt_cc">
+		<svg class="Rectangle_8_cd">
+			<rect fill="rgba(255,255,255,1)" id="Rectangle_8_cd" rx="0" ry="0" x="0" y="0" width="150" height="23">
+			</rect>
+		</svg>
+		<svg class="Rectangle_9_ce">
+			<rect fill="rgba(255,255,255,1)" id="Rectangle_9_ce" rx="0" ry="0" x="0" y="0" width="150" height="30">
+			</rect>
+		</svg>
+		<div id="FOCAL_AUDITOR">
+			<span>FOCAL AUDITOR</span>
+		</div>
+		<img id="ID2100237" src="ID2100237.png" srcset="ID2100237.png 1x, ID2100237@2x.png 2x">
+	</div>
+	<svg class="Path_9_ch" viewBox="0 0 78 30">
+		<path fill="rgba(255,255,255,1)" id="Path_9_ch" d="M 0 0 L 78 0 L 78 30 L 0 30 L 0 0 Z">
+		</path>
+	</svg>
+	<div id="ID239_00">
+		<span>239,00</span>
+	</div>
+	<div id="Header_cj">
+		<svg class="Rectangle_7_ck">
+			<rect fill="rgba(255,255,255,0)" stroke="rgba(72,72,72,1)" stroke-width="4px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_7_ck" rx="18.5" ry="18.5" x="0" y="0" width="127" height="37">
+			</rect>
+		</svg>
+		<div id="inne">
+			<span>inne</span>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Menu" class="Menu">
+		<div id="Group_19">
+			<svg class="Rectangle_14">
+				<rect fill="transparent" stroke="rgba(72,72,72,1)" stroke-width="3.799999952316284px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_14" rx="12" ry="12" x="0" y="0" width="43" height="41">
+				</rect>
+			</svg>
+		</div>
+		<svg class="path" viewBox="557.4 875 21.507 18.312">
+			<path fill="rgba(255,213,32,1)" id="path" d="M 557.39990234375 875.0004272460938 L 578.9065551757813 875.0004272460938 L 578.9065551757813 878.0525512695313 L 557.39990234375 878.0525512695313 L 557.39990234375 875.0004272460938 Z M 557.39990234375 885.6826782226563 L 557.39990234375 882.6305541992188 L 578.9065551757813 882.6305541992188 L 578.9065551757813 885.6826782226563 L 557.39990234375 885.6826782226563 Z M 557.39990234375 893.3126831054688 L 557.39990234375 890.2608032226563 L 578.9065551757813 890.2608032226563 L 578.9065551757813 893.3126831054688 L 557.39990234375 893.3126831054688 Z">
+			</path>
+		</svg>
+	</div>
+	<div id="Component_10___1" class="Component_10___1">
+		<div id="BoSystems">
+			<span>BoSystems</span>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Group_51">
+		<div id="Produkt_ct" class="Produkt">
+			<div id="Produkt_cu">
+				<svg class="Rectangle_8_cv">
+					<rect fill="rgba(255,255,255,1)" id="Rectangle_8_cv" rx="0" ry="0" x="0" y="0" width="149.956" height="23">
+					</rect>
+				</svg>
+				<svg class="Rectangle_9_cw">
+					<rect fill="rgba(255,255,255,1)" id="Rectangle_9_cw" rx="0" ry="0" x="0" y="0" width="149.956" height="30">
+					</rect>
+				</svg>
+				<div id="VISATON_PAW_25">
+					<span>VISATON PAW 25</span>
+				</div>
+			</div>
+			<svg class="Path_9_cy" viewBox="0 0 78 30">
+				<path fill="rgba(255,255,255,1)" id="Path_9_cy" d="M 0 0 L 78 0 L 78 30 L 0 30 L 0 0 Z">
+				</path>
+			</svg>
+			<div id="ID339_00">
+				<span>339,00</span>
+			</div>
+		</div>
+		<img id="paw25_1" src="paw25_1.png" srcset="paw25_1.png 1x, paw25_1@2x.png 2x">
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Group_52">
+		<div id="Produkt_c" class="Produkt">
+			<div id="Produkt_da">
+				<svg class="Rectangle_8_c">
+					<rect fill="rgba(255,255,255,1)" id="Rectangle_8_c" rx="0" ry="0" x="0" y="0" width="150" height="23">
+					</rect>
+				</svg>
+				<svg class="Rectangle_9_c">
+					<rect fill="rgba(255,255,255,1)" id="Rectangle_9_c" rx="0" ry="0" x="0" y="0" width="150" height="30">
+					</rect>
+				</svg>
+				<div id="VISATON_GF_200">
+					<span>VISATON GF 200</span>
+				</div>
+			</div>
+			<svg class="Path_9_c" viewBox="0 0 78 30">
+				<path fill="rgba(255,255,255,1)" id="Path_9_c" d="M 0 0 L 78 0 L 78 30 L 0 30 L 0 0 Z">
+				</path>
+			</svg>
+			<div id="ID459_90">
+				<span>459,90</span>
+			</div>
+		</div>
+		<img id="gf200_2x4_1_0" src="gf200_2x4_1_0.png" srcset="gf200_2x4_1_0.png 1x, gf200_2x4_1_0@2x.png 2x">
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Group_54">
+		<div id="Produkt_db" class="Produkt">
+			<div id="Produkt_dc">
+				<svg class="Rectangle_8_dd">
+					<rect fill="rgba(255,255,255,1)" id="Rectangle_8_dd" rx="0" ry="0" x="0" y="0" width="150" height="23">
+					</rect>
+				</svg>
+				<svg class="Rectangle_9_de">
+					<rect fill="rgba(255,255,255,1)" id="Rectangle_9_de" rx="0" ry="0" x="0" y="0" width="150" height="30">
+					</rect>
+				</svg>
+				<div id="BLOW_TS_C5701">
+					<span>BLOW TS-C5701</span>
+				</div>
+			</div>
+			<svg class="Path_9_dg" viewBox="0 0 78 30">
+				<path fill="rgba(255,255,255,1)" id="Path_9_dg" d="M 0 0 L 78 0 L 78 30 L 0 30 L 0 0 Z">
+				</path>
+			</svg>
+			<div id="ID74_90">
+				<span>74,90</span>
+			</div>
+		</div>
+		<img id="ID30_230" src="ID30_230.png" srcset="ID30_230.png 1x, ID30_230@2x.png 2x">
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Group_58">
+		<div id="Produkt_dk" class="Produkt">
+			<div id="Produkt_dl">
+				<svg class="Rectangle_8_dm">
+					<rect fill="rgba(255,255,255,1)" id="Rectangle_8_dm" rx="0" ry="0" x="0" y="0" width="150" height="23">
+					</rect>
+				</svg>
+				<svg class="Rectangle_9_dn">
+					<rect fill="rgba(255,255,255,1)" id="Rectangle_9_dn" rx="0" ry="0" x="0" y="0" width="150" height="30">
+					</rect>
+				</svg>
+				<div id="DAYTON_AMT_MINI_8">
+					<span>DAYTON AMT MINI-8</span>
+				</div>
+			</div>
+			<svg class="Path_9_dp" viewBox="0 0 78 30">
+				<path fill="rgba(255,255,255,1)" id="Path_9_dp" d="M 0 0 L 78 0 L 78 30 L 0 30 L 0 0 Z">
+				</path>
+			</svg>
+			<div id="ID159_00">
+				<span>159,00</span>
+			</div>
+		</div>
+		<img id="ID275_095_HR_0" src="ID275_095_HR_0.png" srcset="ID275_095_HR_0.png 1x, ID275_095_HR_0@2x.png 2x">
+	</div>
+	<div id="Group_59">
+		<div onclick="application.goToTargetView(event)" id="Group_63">
+			<div id="Produkt_du" class="Produkt">
+				<div id="Produkt_dv">
+					<svg class="Rectangle_8_dw">
+						<rect fill="rgba(255,255,255,1)" id="Rectangle_8_dw" rx="0" ry="0" x="0" y="0" width="150" height="23">
+						</rect>
+					</svg>
+					<svg class="Rectangle_9_dx">
+						<rect fill="rgba(255,255,255,1)" id="Rectangle_9_dx" rx="0" ry="0" x="0" y="0" width="150" height="30">
+						</rect>
+					</svg>
+					<div id="DIETZ_5m">
+						<span>DIETZ 5m</span>
+					</div>
+				</div>
+				<svg class="Path_9_dz" viewBox="0 0 78 30">
+					<path fill="rgba(255,255,255,1)" id="Path_9_dz" d="M 0 0 L 78 0 L 78 30 L 0 30 L 0 0 Z">
+					</path>
+				</svg>
+				<div id="ID34_90">
+					<span>34,90</span>
+				</div>
+			</div>
+			<img id="b163974c4de3a78437827a875cf7" src="b163974c4de3a78437827a875cf7.png" srcset="b163974c4de3a78437827a875cf7.png 1x, b163974c4de3a78437827a875cf7@2x.png 2x">
+		</div>
+	</div>
+	<div id="Group_60">
+		<div onclick="application.goToTargetView(event)" id="Group_64">
+			<div id="Produkt_d" class="Produkt">
+				<div id="Produkt_ea">
+					<svg class="Rectangle_8_d">
+						<rect fill="rgba(255,255,255,1)" id="Rectangle_8_d" rx="0" ry="0" x="0" y="0" width="150" height="23">
+						</rect>
+					</svg>
+					<svg class="Rectangle_9_d">
+						<rect fill="rgba(255,255,255,1)" id="Rectangle_9_d" rx="0" ry="0" x="0" y="0" width="150" height="30">
+						</rect>
+					</svg>
+					<div id="Zwrotnica_tr_jdro_na">
+						<span>Zwrotnica trójdrożna</span>
+					</div>
+				</div>
+				<svg class="Path_9_d" viewBox="0 0 78 30">
+					<path fill="rgba(255,255,255,1)" id="Path_9_d" d="M 0 0 L 78 0 L 78 30 L 0 30 L 0 0 Z">
+					</path>
+				</svg>
+				<div id="ID51_90">
+					<span>51,90</span>
+				</div>
+			</div>
+			<img id="zwrotnica_trojdrozna_12_dB_okt" src="zwrotnica_trojdrozna_12_dB_okt.png" srcset="zwrotnica_trojdrozna_12_dB_okt.png 1x, zwrotnica_trojdrozna_12_dB_okt@2x.png 2x">
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Group_62">
+		<div id="Group_61">
+			<div id="Produkt_ee" class="Produkt">
+				<div id="Produkt_ef">
+					<svg class="Rectangle_8_eg">
+						<rect fill="rgba(255,255,255,1)" id="Rectangle_8_eg" rx="0" ry="0" x="0" y="0" width="150" height="23">
+						</rect>
+					</svg>
+					<svg class="Rectangle_9_eh">
+						<rect fill="rgba(255,255,255,1)" id="Rectangle_9_eh" rx="0" ry="0" x="0" y="0" width="150" height="30">
+						</rect>
+					</svg>
+					<div id="SONY_XM_N502">
+						<span>SONY XM-N502</span>
+					</div>
+				</div>
+				<svg class="Path_9_ej" viewBox="0 0 78 30">
+					<path fill="rgba(255,255,255,1)" id="Path_9_ej" d="M 0 0 L 78 0 L 78 30 L 0 30 L 0 0 Z">
+					</path>
+				</svg>
+				<div id="ID285_00">
+					<span>285,00</span>
+				</div>
+			</div>
+		</div>
+		<img id="i_sony_xmn502" src="i_sony_xmn502.png" srcset="i_sony_xmn502.png 1x, i_sony_xmn502@2x.png 2x">
+	</div>
+</div>
+</body>
+</html>
